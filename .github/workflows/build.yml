@@ -24,4 +24,4 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/zammad-railway:7.1.2
+          tags: ghcr.io/${{ github.repository_owner }}/zammad-railway:7.2.2

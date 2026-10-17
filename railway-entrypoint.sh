@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Railway entrypoint for Zammad 7.1.2 — one container, four roles.
+# Railway entrypoint for Zammad 7.2.2 — one container, four roles.
 #
 #   1. Wait for Postgres, then run upstream's own init (db:create/migrate/seed
 #      on a fresh database, db:migrate + locale sync on an existing one).

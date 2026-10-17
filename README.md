@@ -1,7 +1,7 @@
 # zammad-railway
 
-Railway-tuned [Zammad](https://zammad.org) 7.1.2 image, published as
-`ghcr.io/bon5co/zammad-railway:7.1.2`.
+Railway-tuned [Zammad](https://zammad.org) 7.2.2 image, published as
+`ghcr.io/bon5co/zammad-railway:7.2.2`.
 
 Two things it changes about a stock Zammad deploy.
 
@@ -13,7 +13,7 @@ On a fresh Zammad instance `POST /api/v1/users` is served **unauthenticated**:
 `Service::System::CheckSetup.done?` is true — i.e. once an admin exists. So on
 a stock deploy the first stranger to reach the public URL owns the help desk.
 
-Reproduced against `ghcr.io/zammad/zammad:7.1.2` with the marketplace
+Reproduced against `ghcr.io/zammad/zammad:7.2.2` with the marketplace
 configuration (Postgres + Redis, Elasticsearch disabled), from outside the
 container:
 
