@@ -1,5 +1,9 @@
 # zammad-railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zammad-or-just-updated-zendesk-alternati?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+**Deploy on Railway:** [Zammad template](https://railway.com/deploy/zammad-or-just-updated-zendesk-alternati?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 Railway-tuned [Zammad](https://zammad.org) 7.2.2 image, published as
 `ghcr.io/bon5co/zammad-railway:7.2.2`.
 
