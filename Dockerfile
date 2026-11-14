@@ -1,4 +1,4 @@
-# Zammad 7.2.2 wrapper for Railway.
+# Zammad 7.2.3 wrapper for Railway.
 #
 # Two things this image changes about a stock Zammad deploy:
 #
@@ -19,7 +19,7 @@
 # Everything the deploy form should not ask for is baked here as ENV: a literal
 # defaultValue is dropped by templateGenerate and would publish as a blank
 # required field.
-FROM ghcr.io/zammad/zammad:7.2.2@sha256:c7dba7413b9d7a854b8cf9bd1871bfa97ee3b5dce33311dc0260e9b18c428add
+FROM ghcr.io/zammad/zammad:7.2.3@sha256:487ea743107a4c4af6717c1c149bb5dfc4f5308d2aff5dac2bf68fa0d379a034
 
 ENV ELASTICSEARCH_ENABLED=false \
     POSTGRESQL_DB=zammad_production \
